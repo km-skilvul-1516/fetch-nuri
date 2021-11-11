@@ -4,7 +4,7 @@ import "../style/style.css"
 
 export default function Home () {
     const {state : {product} } = CartState();
-    console.log(product)
+    console.log(product);
     return (
         <div className = "home">
             <div className='productContainer'>

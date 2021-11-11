@@ -8,6 +8,7 @@ export default function SingleProduct ({prod}) {
         state: { cart },
         dispatch,
     } = CartState();
+    
     console.log(prod)
     return (
         <div className ="products">
@@ -36,7 +37,7 @@ export default function SingleProduct ({prod}) {
                             payload: prod
                         })
                     }} >
-                        Add to Cart dafda
+                        Add to Cart dafdas
                     </Button>
                    )}
                   
